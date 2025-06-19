@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroPulse AI - SaaS Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="loader">
+        <div class="progress-container">
+            <div class="progress-line"></div>
+        </div>
+        <div class="loader-text">Loading...<span class="loaderVal">0%</span></div>
+    </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">NeuroPulse AI</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#insights">Insights</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- <div class="actions">
+      <button id="darkModeToggle">🌙</button>
+    </div> -->
+    <div class="menu">
+        <img src="Assets/main-menu.png" alt="">
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="bg-video">
+        <video src="Assets/hero-bg.mp4" loop muted autoplay></video>
+    </div>
+    <div class="hero-cntnt">
+        <div class="cntnt-upper">
+            <h1>Unlock the Power of AI For Your Business</h1>
+        </div>
+        <div class="cntnt-lower">
+            <p>Harness cutting-edge artificial intelligence to automate processes, drive innovation, and deliver actionable insights — empowering your business to scale faster, operate smarter, and stay ahead of the competition.</p>
+            <button class="cta-btn ripple">Start Free Trial</button>
+        </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+    <section class="features-section">
+        <div class="sectionHead">
+            <div class="subHead">Feature</div>
+            <div class="head">Powerful AI Capabilities Built for Your Business</div>
+            <div class="headDes">Every feature is crafted to streamline your operations, enhance customer engagement, and unlock growth through intelligent automation.</div>
+        </div>
+
+        <!-- Feature Filter Buttons -->
+        <div class="feature-tabs">
+            <button class="tab-btn active" data-target="feature1"><div class="iconImg iconImg1"><img src="Assets/Orchestration.svg"></div>Orchestration</button>
+            <button class="tab-btn" data-target="feature2"><div class="iconImg iconImg2"><img src="Assets/connectivity.svg"></div>Connectivity</button>
+            <button class="tab-btn" data-target="feature3"><div class="iconImg iconImg3"><img src="Assets/engagement.svg"></div>Engagement</button>
+            <button class="tab-btn" data-target="feature4"><div class="iconImg iconImg4"><img src="Assets/control.svg"></div>Control</button>
+        </div>
+
+        <!-- Feature Details Container -->
+        <div class="feature-content">
+            <div class="feature-box active" id="feature1">
+                <div class="featureCntnt">
+                    <h3>Orchestration</h3>
+                    <p><span>        </span>Take full command of your operational workflows with real-time orchestration. Coordinate complex service chains seamlessly across multiple systems and platforms, ensuring efficient execution and flawless service delivery. Automate repetitive tasks, reduce manual errors, and improve system reliability, all while maintaining total control and visibility over every operation.</p>
+                </div>
+                <div class="featureImg">
+                    <img src="Assets/fe1.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="feature-box" id="feature2">
+                <div class="featureCntnt">
+                    <h3>Connectivity</h3>
+                    <p>Unlock seamless data exchange and system communication with enterprise-grade connectivity solutions. Integrate diverse data sources, devices, and platforms into a unified ecosystem that drives intelligent business processes. Our AI-powered architecture ensures lightning-fast data flow, secure transmissions, and adaptive network configurations that scale as your business grows.</p>
+                </div>
+                <div class="featureImg">
+                    <img src="Assets/fe2.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="feature-box" id="feature3">
+                <div class="featureCntnt">
+                    <h3>Engagement</h3>
+                    <p>Transform customer experiences with AI-driven engagement solutions that personalize every interaction. Deliver targeted content, proactive support, and context-aware communications that build trust and long-lasting customer relationships. Whether it's onboarding, support, or marketing, empower your teams to connect with users in meaningful and measurable ways.</p>
+                </div>
+                <div class="featureImg">
+                    <img src="Assets/fe3.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="feature-box" id="feature4">
+                <div class="featureCntnt">
+                    <h3>Control</h3>
+                    <p>Gain comprehensive administrative control over every aspect of your AI infrastructure. Customize workflows, enforce security policies, monitor performance in real-time, and ensure compliance with regulatory standards. Our control panel puts you in the driver’s seat, offering granular permissions, instant reporting, and predictive system health monitoring — all from a single intuitive interface.</p>
+                </div>
+                <div class="featureImg">
+                    <img src="Assets/fe4.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
