@@ -7,7 +7,7 @@ The landing page showcases a SaaS product called **NeuroPulse AI**, demonstratin
 
 ## Live Deployment
 
-[🔗 Live URL Here](https://your-deployment-link.netlify.app)
+[🔗 Live URL Here](https://vibecoding-round1-dheeraj.netlify.app/)
 
 ## Features Implemented
 
